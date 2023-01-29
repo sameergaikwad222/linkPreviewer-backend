@@ -1,6 +1,12 @@
 
-# config folder
+# config folder- comment in productions
 # config
+
+# Pipelines for Database dockers getting Up and ready.
+# database.yml
 
 # Node Modules
 node_modules
+
+# Logs
+*.log

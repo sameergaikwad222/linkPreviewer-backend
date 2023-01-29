@@ -1,8 +1,14 @@
 {
   "dev": {
-    "PORT": 3000
+    "PORT": 3000,
+    "dbUsername": "admin",
+    "dbPassword": "password",
+    "dbUri": "mongodb://sameer:password@localhost:27017/urls"
   },
   "prod": {
-    "PORT": 80
+    "PORT": 80,
+    "dbUsername": "admin",
+    "dbPassword": "password",
+    "dbUri": "mongodb://sameer:password@localhost:27017/urls"
   }
 }
