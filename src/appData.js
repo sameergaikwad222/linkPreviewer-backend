@@ -23,11 +23,14 @@ async function getData(urls = []) {
   let promiseObjectForAll = [];
 
   try {
-    const data = await URL.find({
-      url: {
-        $in: urls,
+    const data = await URL.find(
+      {
+        url: {
+          $in: urls,
+        },
       },
-    });
+      { _id: 0, __v: 0 }
+    );
 
     if (data) {
       //Copy existing data into an Array
