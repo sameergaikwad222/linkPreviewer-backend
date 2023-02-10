@@ -1,7 +1,7 @@
 const Joi = require("joi");
 
 const urlSchema = Joi.object({
-  urlData: Joi.array().items(Joi.string()),
+  urlData: Joi.array().items(Joi.string()).required(),
 });
 
 const validateUrlSchema = function (req, res, next) {
