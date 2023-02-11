@@ -5,8 +5,8 @@ var bodyParser = require("body-parser");
 const { connectDatabase } = require("./src/database");
 let env =
   process.argv[2] === "prod"
-    ? require("./config/config.json")["prod"]
-    : require("./config/config.json")["dev"];
+    ? require("./src/config/config.json")["prod"]
+    : require("./src/config/config.json")["dev"];
 
 const PORT = env.PORT || 3000;
 

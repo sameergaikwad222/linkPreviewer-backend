@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 // Connection URI
 let env =
   process.env.NODE_ENV === "prod"
-    ? require("../config/config.json")["prod"]
-    : require("../config/config.json")["dev"];
+    ? require("./config/config.json")["prod"]
+    : require("./config/config.json")["dev"];
 
 const uri = env.dbUri;
 

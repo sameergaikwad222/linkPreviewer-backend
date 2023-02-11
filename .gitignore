@@ -10,3 +10,9 @@ node_modules
 
 # Logs
 *.log
+
+# yml file
+*.yml
+
+# configs
+src/config/config.json
