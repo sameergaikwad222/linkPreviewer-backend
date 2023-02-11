@@ -13,6 +13,7 @@ node_modules
 
 # yml file
 *.yml
+database.yml
 
 # configs
 src/config/config.json
