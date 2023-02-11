@@ -17,3 +17,8 @@ database.yml
 
 # configs
 src/config/config.json
+
+
+# Docker Files
+.dockerignore
+Dockerfile
